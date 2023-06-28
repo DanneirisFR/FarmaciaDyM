@@ -8,3 +8,11 @@
 @using Microsoft.JSInterop
 @using FarmaciaDyM
 @using FarmaciaDyM.Shared
+@using FarmaciaDyM.Data.Services
+@inject  IClienteServicescs clienteServices;
+@inject  IProductoServices productoServices;
+@inject  IProveedorServices proveedorServices;
+@inject  IUsuarioServices usuarioServices;
+@inject  IVentaServices ventaServices;
+
+@inject NavigationManager navigator;
